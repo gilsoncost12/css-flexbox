@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .flexbox-container{
+            background: #d5d6fa;
+            padding: 20px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 900px;
+        }
+        .flexbox-item{
+            width: 200px;
+            margin: 20px;
+            border: 4px solid #7400b8;
+            background: #8ab9f3;
+        }
+        .item-1{
+            min-height: 100px;
+        }
+        .item-2{
+            min-height: 200px;
+        }
+        .item-3{
+            min-height: 300px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="flexbox-container">
+
+        <div class="flexbox-item item-1"></div>
+        <div class="flexbox-item item-2"></div>
+        <div class="flexbox-item item-3"></div>
+
+    </div>
+</body>
+</html>
